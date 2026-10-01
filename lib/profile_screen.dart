@@ -112,7 +112,7 @@ class _profilescreenState extends State<profilescreen> {
                       ),
                     ),
                     Text(
-                      'Your 2021 in review',
+                      'Your 2022 in review',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
@@ -126,7 +126,7 @@ class _profilescreenState extends State<profilescreen> {
 
             SizedBox(height: 11),
 
-            // Top songs section
+
             Row(
               children: [
                 Column(
@@ -134,7 +134,7 @@ class _profilescreenState extends State<profilescreen> {
                   children: [
                     ClipRRect(
                       child: Image.asset(
-                        'assets/images/Screenshot 2026-10-01 144036.png',
+                        'assets/images/Screenshot 2026-10-01 144053.png',
                         width: 130,
                         height: 130,
                         fit: BoxFit.cover,
@@ -158,7 +158,7 @@ class _profilescreenState extends State<profilescreen> {
                   children: [
                     ClipRRect(
                       child: Image.asset(
-                        'assets/images/Screenshot 2026-10-01 144053.png',
+                        'assets/images/Screenshot 2026-10-01 144112.png',
                         width: 130,
                         height: 130,
                         fit: BoxFit.cover,
@@ -211,10 +211,10 @@ class _profilescreenState extends State<profilescreen> {
                       'Your Top Songs 2021',
                       style: TextStyle(
                         fontSize: 10,
-                        color: Colors.white,
+                        color: Colors.grey,
                       ),
                     ),
-                    Text('Juice WRLD, Post Malone', style: TextStyle(fontSize: 10,color: Colors.white),)
+                    Text('Juice WRLD, Post Malone', style: TextStyle(fontSize: 10,color: Colors.grey),)
                   ],
                 ),
 
@@ -235,10 +235,10 @@ class _profilescreenState extends State<profilescreen> {
                       'Your Artists Revealed',
                       style: TextStyle(
                         fontSize: 10,
-                        color: Colors.white,
+                        color: Colors.grey,
                       ),
                     ),
-                    Text('Glass Animals, Charli XCX', style: TextStyle(fontSize: 10,color: Colors.white),),
+                    Text('Glass Animals, Charli XCX', style: TextStyle(fontSize: 10,color: Colors.grey),),
                   ],
                 ),
               ],
